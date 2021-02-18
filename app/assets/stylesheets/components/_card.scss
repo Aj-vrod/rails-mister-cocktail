@@ -1,0 +1,36 @@
+.card-title {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+.btn-info-show {
+  text-decoration: none;
+  color:  white;
+  opacity: .7;
+  font-size: 15px;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+}
+
+.btn-info-show:hover {
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.card {
+  height: 210px;
+  margin: 10px 3px;
+  width: 330px;
+  border: darkblue;
+}
+
+.card-img-overlay {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-img {
+  height: 100%;
+}

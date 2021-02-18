@@ -1,0 +1,35 @@
+#new_cocktail > div > label {
+  color: white;
+}
+
+#new_cocktail > input[type=submit] {
+  text-decoration: none;
+  color: #e27802;
+  opacity: .8;
+  background-color: #0d335d;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+#new_cocktail > input[type=submit]:hover {
+  color: #e27802;
+  opacity: 1;
+}
+
+#new_dose > div > label {
+  color: white;
+}
+
+#new_dose > input[type=submit] {
+  text-decoration: none;
+  color: #e27802;
+  opacity: .8;
+  background-color: #0d335d;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+#new_dose > input[type=submit]:hover {
+  color: #e27802;
+  opacity: 1;
+}

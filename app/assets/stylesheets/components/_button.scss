@@ -1,0 +1,47 @@
+.btn-footer-index {
+  color: rgba(0,0,0,.6);
+  font-size: 15px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn-footer-index:hover {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f6c065;
+  font-size: 25px;
+  font-family: 'Noto Serif', serif;
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #f6c065;
+  background-color: #0d335d;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.btn-delete-dose {
+  text-decoration: none;
+  color: #e27802;
+  opacity: 0.7;
+  font-size: 18px;
+  font-family: 'Noto Serif', serif;
+  background-color: transparent;
+}
+
+.btn-delete-dose:hover {
+  text-decoration: none;
+  color: #e27802;
+  opacity: 1;
+  background-color: #0d335d;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
