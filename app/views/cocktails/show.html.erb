@@ -1,6 +1,9 @@
 <div class="title">
   <h1><%= @cocktail.name.capitalize %></h1>
 </div>
+<div class="img-container">
+  <%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill, :class => "card-img" %>
+</div>
 <ul class="nav justify-content-end">
   <li class="nav-item">
     <%= link_to "Add dose", new_cocktail_dose_path(@cocktail), class: "nav-link" %>

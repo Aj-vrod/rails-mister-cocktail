@@ -3,7 +3,7 @@
     <% @cocktails.each do |cocktail| %>
       <div class="col-lg-4 col-md-4 col-sm-3">
         <div class="card rounded">
-          <img class="card-img" src="https://images.pexels.com/photos/605408/pexels-photo-605408.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+          <%= cl_image_tag cocktail.photo.key, height: 300, width: 400, crop: :fill, :class => "card-img" %>
           <div class="card-img-overlay">
               <h5 class="card-title"><%= cocktail.name.capitalize %></h5>
               <%= link_to "See more", cocktail_path(cocktail), class: "btn-info-show" %>
