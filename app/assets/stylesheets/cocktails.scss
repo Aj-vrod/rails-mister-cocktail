@@ -29,10 +29,12 @@ body {
   margin-bottom: 40px;
 }
 
-.foot {
+.footer {
   width: 100%;
   height: 40px;
   background-color: #ffeebb;
+  position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,11 +51,15 @@ body {
 }
 
 .img-container {
+  margin-top: 30px;
   width: 100%;
   height: 300px;
   background-size: cover;
   background-position: center;
 }
 
-
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
 
